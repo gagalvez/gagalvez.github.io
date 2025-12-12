@@ -11,6 +11,8 @@ export const skillsData = {
         { name: "ReactJS" },
         { name: "Angular" },
         { name: "Tailwind" },
+        { name: "Typescript" },
+        { name: "JavaScript" },
       ],
     },
     {
@@ -22,6 +24,7 @@ export const skillsData = {
         { name: "Node.js" },
         { name: "APIs REST" },
         { name: "SQL" },
+        { name: "Typescript" },
       ],
     },
     {

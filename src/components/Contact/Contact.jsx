@@ -79,17 +79,6 @@ const Contact = () => {
                   {contactData.locationFull}
                 </p>
               </div>
-              <button
-                onClick={() => copyToClipboard(contactData.location, "location")}
-                className={styles.copyButton.base}
-                aria-label="Copiar ubicación"
-              >
-                {copiedField === "location" ? (
-                  <Check className={styles.copyButton.iconCopied} />
-                ) : (
-                  <Copy className={styles.copyButton.icon} />
-                )}
-              </button>
             </div>
           </div>
         </div>
